@@ -1,1 +1,22 @@
 /.env
+*.log
+*.env.local
+.idea/
+.vscode/
+bin/
+
+# Build artifacts
+*.exe
+*.out
+*.test
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency cache (if you use vendoring)
+vendor/
+
+# Coverage or profiling
+coverage.*
+*.prof
